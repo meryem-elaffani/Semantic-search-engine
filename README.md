@@ -16,7 +16,7 @@ used pre-trained sentence-transformer model with OpenAI embeddings.
 transformed each article into a semantic vector.
 
 for Data Storage:
-store article embeddings and metadata in a database (e.g., PostgreSQL, Elasticsearch, or any vector database like Pinecone or Weaviate).
+store article embeddings and metadata in a database .json
 
 2. Backend Development
 
@@ -24,7 +24,7 @@ queries Transformation:
 converted user input into a semantic vector using the same model as above.
 
 Similarity Search:
-Use cosine similarity or a specialized vector search library (e.g., FAISS or Pinecone) to find the closest matches.
+Use cosine similarity or a specialized vector search library 
 
 and result:
 return relevant data title, link as "Read more".
