@@ -24,7 +24,7 @@ queries Transformation:
 converted user input into a semantic vector using the same model as above.
 
 Similarity Search:
-Use cosine similarity or a specialized vector search library 
+Used a specialized vector search library 
 
 and result:
 return relevant data title, link as "Read more".
